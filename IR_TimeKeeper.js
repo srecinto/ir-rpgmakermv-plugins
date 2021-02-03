@@ -2,7 +2,7 @@
 // IR_TimeKeeper.js
 //=============================================================================
 var IR = IR || {};
-IR.TimeKeeper = IR..TimeKeeper || {};
+IR.TimeKeeper = IR.TimeKeeper || {};
 IR.TimeKeeper.version = 1.0;
 /*:
  * @plugindesc Track seconds, hours, miniutes, days, months and years
@@ -124,6 +124,6 @@ IR.TimeKeeper.Config.StartingDay = Number(IR.TimeKeeper.Parameters['Day']);
 IR.TimeKeeper.Config.StartingMonth = Number(IR.TimeKeeper.Parameters['Month']);
 IR.TimeKeeper.Config.StartingYear = Number(IR.TimeKeeper.Parameters['Year']);
 
- (function() {
+(function() {
 
- })();
+})();
